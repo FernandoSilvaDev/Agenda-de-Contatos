@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Agenda de contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wallpaper">
+        <div class="container">
+            <section id="header-section">
+                <header>
+                    <h1>Agenda de contatos</h1>
+                </header>
+                    <form id="form-atividade" >
+                        <input type="text" id="nome-atividade" required placeholder="Nome">
+                        <input type="number" id="numero-atividade" required placeholder="Telefone">
+                        <button type="submit"> Adicionar +</button>
+                    </form>
+            </section>
+            <br />
+            <section id="body-section">
+                <table cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Telefone</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                    <th></th><th></th>
+                    <tfoot>
+                        <tr class="rodape-tabela">
+                            <th>Contatos adicionados</th>
+                            <th id="soma-dos-contatos">---</th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+        </div>
+    </div>
+    <script src="./main.js" ></script>
+</body>
+</html>
